@@ -53,7 +53,7 @@ const Footer = ({ isDark = true }) => {
             className="mb-6"
           >
             <motion.a
-              href="https://github.com/yourusername/skywave-weather-app"
+              href="https://github.com/brijeshpatel49/SkyWave.git"
               target="_blank"
               rel="noopener noreferrer"
               whileHover={{ scale: 1.05, y: -2 }}
