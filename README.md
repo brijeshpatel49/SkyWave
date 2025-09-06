@@ -101,13 +101,6 @@ A stunning, responsive weather application built with modern web technologies. E
 | Safari  | 14+     | ✅ Full Support |
 | Edge    | 90+     | ✅ Full Support |
 
-## 🔧 Configuration Options
-
-### Environment Variables
-```env
-VITE_OPENWEATHER_API_KEY=your_api_key_here
-```
-
 ### localStorage Keys
 - `theme` - User's theme preference
 - `temperatureUnit` - Temperature unit preference
