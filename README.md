@@ -2,8 +2,6 @@
 
 A stunning, responsive weather application built with modern web technologies. Experience beautiful weather animations, detailed forecasts, and an intuitive interface that adapts to any device.
 
-![SkyWave Weather App](https://via.placeholder.com/800x400/4F46E5/FFFFFF?text=SkyWave+Weather+App)
-
 ## ✨ Features
 
 ### 🌟 Core Features
@@ -59,82 +57,6 @@ A stunning, responsive weather application built with modern web technologies. E
 - **ESLint** - Code linting and formatting
 - **PostCSS** - CSS processing
 - **Autoprefixer** - CSS vendor prefixing
-
-## 🚀 Quick Start
-
-### Prerequisites
-- **Node.js** (v16 or higher)
-- **npm** or **yarn**
-- **OpenWeatherMap API key** (free)
-
-### Installation
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/yourusername/skywave-weather-app.git
-   cd skywave-weather-app
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   ```
-
-3. **Environment Setup**
-   ```bash
-   # Copy the example environment file
-   cp .env.example .env
-   
-   # Add your OpenWeatherMap API key to .env
-   VITE_OPENWEATHER_API_KEY=your_api_key_here
-   ```
-   
-   🔑 Get your free API key from [OpenWeatherMap](https://openweathermap.org/api)
-
-4. **Start development server**
-   ```bash
-   npm run dev
-   ```
-
-5. **Open in browser**
-   Navigate to `http://localhost:5173`
-
-### Build for Production
-
-```bash
-npm run build
-npm run preview
-```
-
-## 📁 Project Architecture
-
-```
-skywave-weather-app/
-├── public/                 # Static assets
-├── src/
-│   ├── components/         # React components
-│   │   ├── Navigation.jsx  # Top navigation bar
-│   │   ├── SearchBar.jsx   # Search functionality
-│   │   ├── WeatherCard.jsx # Current weather display
-│   │   ├── HourlyForecast.jsx # Hourly weather data
-│   │   ├── Forecast.jsx    # 5-day forecast
-│   │   ├── WeatherAnimations.jsx # Animated weather icons
-│   │   ├── ThemeToggle.jsx # Dark/light mode switch
-│   │   ├── LoadingSpinner.jsx # Loading animations
-│   │   ├── ErrorMessage.jsx # Error handling
-│   │   ├── RefreshButton.jsx # Refresh functionality
-│   │   └── Footer.jsx      # Footer with tech stack
-│   ├── utils/
-│   │   └── api.js          # Weather API functions
-│   ├── App.jsx             # Main application
-│   ├── main.jsx            # React entry point
-│   └── index.css           # Global styles
-├── .env.example            # Environment template
-├── tailwind.config.js      # Tailwind configuration
-├── postcss.config.cjs      # PostCSS configuration
-├── vite.config.js          # Vite configuration
-└── package.json            # Dependencies and scripts
-```
 
 ## 🎨 Design System
 
@@ -192,46 +114,11 @@ VITE_OPENWEATHER_API_KEY=your_api_key_here
 - `lastSearchedCity` - Last searched city name
 - `lastSearchedCoords` - Last used coordinates
 
-## 🚀 Deployment
-
-### Vercel (Recommended)
-```bash
-npm run build
-# Deploy to Vercel
-```
-
-### Netlify
-```bash
-npm run build
-# Deploy dist/ folder to Netlify
-```
-
-### GitHub Pages
-```bash
-npm run build
-# Deploy dist/ folder to gh-pages branch
-```
-
-## 🤝 Contributing
-
-We welcome contributions! Please see our [Contributing Guide](CONTRIBUTING.md) for details.
-
-### Development Workflow
-1. Fork the repository
-2. Create a feature branch
-3. Make your changes
-4. Test thoroughly
-5. Submit a pull request
-
 ### Code Style
 - Use ESLint configuration
 - Follow React best practices
 - Write meaningful commit messages
 - Add comments for complex logic
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
@@ -255,9 +142,9 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 <div align="center">
 
-**[🌐 Live Demo](https://skywave-weather.vercel.app)** • **[📚 Documentation](https://github.com/yourusername/skywave-weather-app/wiki)** • **[🐛 Report Bug](https://github.com/yourusername/skywave-weather-app/issues)** • **[✨ Request Feature](https://github.com/yourusername/skywave-weather-app/issues)**
+**[🌐 Live Demo](https://sky-wave-jade.vercel.app/)**
 
-Made with ❤️ by the SkyWave Team
+Made with ❤️ by Brijesh Patel
 
 ⭐ **Star this repo if you found it helpful!**
 
